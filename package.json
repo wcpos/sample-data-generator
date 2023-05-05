@@ -1,0 +1,26 @@
+{
+  "name": "sample-data-generator",
+  "version": "1.0.0",
+  "description": "Generate large amounts of dummy data for a WooCommerce store",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "products": "node generate-products.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcpos/sample-data-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wcpos/sample-data-generator/issues"
+  },
+  "homepage": "https://github.com/wcpos/sample-data-generator#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "axios": "^1.4.0",
+    "csv-writer": "^1.6.0"
+  }
+}
