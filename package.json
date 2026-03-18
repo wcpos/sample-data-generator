@@ -20,7 +20,7 @@
   "homepage": "https://github.com/wcpos/sample-data-generator#readme",
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
-    "axios": "^1.4.0",
+    "axios": "^1.13.5",
     "csv-writer": "^1.6.0"
   }
 }
